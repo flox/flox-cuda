@@ -27,7 +27,7 @@ Each runtime is a declarative, reproducible Flox environment that runs directly 
 
 | Repository | What it serves |
 |---|---|
-| **[triton-flox-runtime](https://github.com/flox/triton-flox-runtime-trtllm)** | NVIDIA Triton Inference Server v2.66.0 with Python, ONNX Runtime v1.24.2, TensorRT v10.23, TensorRT-LLM 1.10, and vLLM v0.15.1 backends. HTTP, gRPC, Prometheus metrics, and optional OpenAI-compatible frontend. |
+| **[triton-flox-runtime](https://github.com/flox/triton-flox-runtime)** | NVIDIA Triton Inference Server v2.66.0 with Python, ONNX Runtime v1.24.2, TensorRT v10.23, TensorRT-LLM 1.10, and vLLM v0.15.1 backends. HTTP, gRPC, Prometheus metrics, and optional OpenAI-compatible frontend. |
 | **[vllm-flox-runtime](https://github.com/flox/vllm-flox-runtime)** | vLLM v0.15.1 on CUDA 12.9. OpenAI-compatible API, multi-GPU tensor and pipeline parallelism, multi-source model provisioning (local, HuggingFace, S3, R2), and three-stage model validation. |
 | **[llamacpp-flox-runtime](https://github.com/flox/llamacpp-flox-runtime)** | llama.cpp on CUDA 12.9. Serves GGUF-quantized models via llama-server with continuous batching, Flash Attention, multi-GPU layer splitting, and GGUF artifact validation (magic bytes, header parsing, optional SHA256 pinning). |
 
