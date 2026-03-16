@@ -4,7 +4,7 @@ Flox is built on open-source [Nix](https://nixos.org), a reproducible package / 
 
 Flox supplements Nix with private catalogs; [FloxHub](https://hub.flox.dev) (a central site to share, version, and manage Flox environments); and declarative environment manifests expressed as TOML.
 
-This repo hosts GPU- and CPU-targeted build recipes, production model-serving runtimes, model quantization tooling, monitoring environments, and other resources for the NVIDIA CUDA ecosystem. This repo would not exist without the dedicated excellence of the Nix ecosystem and the trailblazing ingenuity and brilliance of the Nix CUDA team. Thanks be to both.
+This repo hosts GPU- and CPU-targeted build recipes, production model-serving runtimes, model quantization tooling, monitoring environments, and other resources for the NVIDIA CUDA ecosystem. This repo would not exist without the dedicated excellence of the Nix ecosystem and the trailblazing ingenuity and brilliance of the Nix CUDA team. Thanks to both.
 
 ---
 
