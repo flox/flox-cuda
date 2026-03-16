@@ -23,7 +23,7 @@ This repo hosts GPU- and CPU-targeted build recipes, production model-serving ru
 
 ### Model-serving runtimes
 
-Each runtime is a declarative, reproducible Flox environment that runs directly on bare metal, in VMs, uncontained on Kubernetes, or as the basis for minimal OCI images. No containers required.
+Each runtime is a declarative, reproducible Flox environment that runs directly on bare metal, in VMs, [uncontained on Kubernetes](https://flox.dev/blog/kubernetes-uncontained-explained-unlocking-faster-more-reproducible-deployments-on-k8s/), or as the basis for distroless OCI images. Containers aren't required, but (for container-based workflows) Flox and Nix make containers even better: minimal, truly declarative, deterministic.
 
 | Repository | What it serves |
 |---|---|
