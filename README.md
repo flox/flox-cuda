@@ -31,7 +31,7 @@ Each runtime is a declarative, reproducible Flox environment that runs directly 
 | **[triton-flox-runtime with tensorrt-llm](https://github.com/flox/triton-trtllm-flox-runtime)** | NVIDIA Triton Inference Server v2.66.0 with Python, ONNX Runtime v1.24.2, TensorRT v10.23, TensorRT-LLM 1.10, and vLLM v0.15.1 backends. HTTP, gRPC, Prometheus metrics, and optional OpenAI-compatible frontend. |
 | **[triton-monitoring](https://github.com/flox/triton-monitoring-runtime)** | Example Grafana + Prometheus monitoring stack for NVIDIA Triton Inference Server v2.66.0. Just works everywhere: on x86-64 and ARM Linux and macOS; locally, in CI, in prod. |
 | **[vllm-flox-runtime](https://github.com/flox/vllm-flox-runtime)** | vLLM v0.16.0 on CUDA 12.9. OpenAI-compatible API, multi-GPU tensor and pipeline parallelism, multi-source model provisioning (local, HuggingFace, S3, R2), and three-stage model validation. |
-| **[vllm-monitoring-runtime](https://github.com/flox/vllm-monitoring-runtime)** | Example Grafana + Prometheus monitoring stack for vLLM. Just works everywhere: on x86-64 and ARM Linux and macOS; locally, in CI, in prod. |  |
+| **[vllm-monitoring](https://github.com/flox/vllm-monitoring-runtime)** | Example Grafana + Prometheus monitoring stack for vLLM. Just works everywhere: on x86-64 and ARM Linux and macOS; locally, in CI, in prod. |  |
 | **[llamacpp-flox-runtime](https://github.com/flox/llamacpp-flox-runtime)** | llama.cpp on CUDA 12.9. Serves GGUF-quantized models via llama-server with continuous batching, Flash Attention, multi-GPU layer splitting, and GGUF artifact validation (magic bytes, header parsing, optional SHA256 pinning). |
 
 ### Quantization and conversion tooling
