@@ -16,7 +16,7 @@ This repo hosts GPU- and CPU-targeted build recipes, production model-serving ru
 |---|---|
 | **[pytorch-cuda](https://github.com/flox/pytorch-cuda)** | Parametric Nix builder for GPU- and CPU-targeted PyTorch. Covers PyTorch 2.8.0 through 2.10.0 on CUDA 12.8 through 13.1. Generates concrete, hardware-specific package definitions from metadata tables. |
 | **[gpu-specific-pytorch-2.9.1](https://github.com/flox/gpu-specific-pytorch-2.9.1)** | Demo environment: Custom PyTorch 2.9.1 variants with CUDA 12.9.1 support, targeted for specific GPU architectures (SM61 through SM120) and CPU instruction sets (AVX, AVX2, AVX-512, ARMv9). |
-| **[onnx-runtime](https://github.com/flox/build-onnx-runtime)** | ONNX Runtime 1.18 through 1.24.2 for Python 3.12 and 3.13, CUDA 12.4 and 12.9. Versions segmented across Git branches. |
+| **[onnx-runtime](https://github.com/flox/onnx-runtime)** | ONNX Runtime 1.18 through 1.24.2 for Python 3.12 and 3.13, CUDA 12.4 and 12.9. Versions segmented across Git branches. |
 | **[magma](https://github.com/flox/magma)** | MAGMA 2.9.0 for NVIDIA GPUs. Single-architecture static builds that replace the ~10 GB all-architecture closure in nixpkgs. |
 | **[vllm](https://github.com/flox/vllm)** | vLLM 0.13.0 through 0.15.1, with 0.16.0 coming soon. Versions segmented across Git branches. |
 | **[llamacpp](https://github.com/flox/llamacpp)** | GPU-specific llama.cpp recipes pinned to specific versions, plus recipes that always build latest. |
