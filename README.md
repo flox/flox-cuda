@@ -1,4 +1,4 @@
-## Build, package, and serve CUDA-accelerated AI/ML software with [Flox](https://flox.dev) and [Nix](https://nixos.org/)
+# Reproducibly build + serve CUDA-accelerated AI/ML stacks with [Flox](https://flox.dev) and [Nix](https://nixos.org/)
 
 Flox is built on open-source [Nix](https://nixos.org), a reproducible package / environment manager and build system. Nix defines build recipes as code and treats each build as a pure function of its declared inputs. The same Nix expression works one month, one year, even five years after testing.
 
@@ -27,7 +27,8 @@ Each runtime is a declarative, reproducible Flox environment that runs directly 
 
 | Repository | What it serves |
 |---|---|
-| **[triton-flox-runtime](https://github.com/flox/triton-flox-runtime)** | NVIDIA Triton Inference Server v2.66.0 with Python, ONNX Runtime v1.24.2, TensorRT v10.23, TensorRT-LLM 1.10, and vLLM v0.15.1 backends. HTTP, gRPC, Prometheus metrics, and optional OpenAI-compatible frontend. |
+| **[triton-flox-runtime](https://github.com/flox/triton-flox-runtime)** | NVIDIA Triton Inference Server v2.66.0 with Python, ONNX Runtime v1.24.2, TensorRT v10.23, and vLLM v0.15.1 backends. HTTP, gRPC, Prometheus metrics, and optional OpenAI-compatible frontend. |
+| **[triton-flox-runtime with tensorrt-llm](https://github.com/flox/triton-flox-runtime-trtllm)** | NVIDIA Triton Inference Server v2.66.0 with Python, ONNX Runtime v1.24.2, TensorRT v10.23, TensorRT-LLM 1.10, and vLLM v0.15.1 backends. HTTP, gRPC, Prometheus metrics, and optional OpenAI-compatible frontend. |
 | **[vllm-flox-runtime](https://github.com/flox/vllm-flox-runtime)** | vLLM v0.15.1 on CUDA 12.9. OpenAI-compatible API, multi-GPU tensor and pipeline parallelism, multi-source model provisioning (local, HuggingFace, S3, R2), and three-stage model validation. |
 | **[llamacpp-flox-runtime](https://github.com/flox/llamacpp-flox-runtime)** | llama.cpp on CUDA 12.9. Serves GGUF-quantized models via llama-server with continuous batching, Flash Attention, multi-GPU layer splitting, and GGUF artifact validation (magic bytes, header parsing, optional SHA256 pinning). |
 
