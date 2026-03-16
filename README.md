@@ -1,4 +1,4 @@
-## Build, package, publish, and serve GPU-specific, CUDA-accelerated AI/ML software with [Flox](https://flox.dev) and [Nix](https://nixos.org/)
+## Build, package, and serve CUDA-accelerated AI/ML software with [Flox](https://flox.dev) and [Nix](https://nixos.org/)
 
 Flox is built on open-source [Nix](https://nixos.org), a reproducible package / environment manager and build system. Nix defines build recipes as code and treats each build as a pure function of its declared inputs. The same Nix expression works one month, one year, even five years after testing.
 
