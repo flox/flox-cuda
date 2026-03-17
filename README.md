@@ -35,6 +35,7 @@ Each runtime is a declarative, reproducible Flox environment that runs directly 
 | **[vllm-runtime](https://github.com/flox/vllm-flox-runtime)** | vLLM v0.16.0 on CUDA 12.9. OpenAI-compatible API, multi-GPU tensor and pipeline parallelism, multi-source model provisioning (local, HuggingFace, S3, R2), and three-stage model validation. |
 | **[vllm-monitoring](https://github.com/flox/vllm-monitoring-runtime)** | Example Grafana + Prometheus monitoring stack for vLLM. Just works everywhere: on x86-64 and ARM Linux and macOS; locally, in CI, in prod. |  |
 | **[llamacpp-runtime](https://github.com/flox/llamacpp-flox-runtime)** | llama.cpp on CUDA 12.9. Serves GGUF-quantized models via llama-server with continuous batching, Flash Attention, multi-GPU layer splitting, and GGUF artifact validation (magic bytes, header parsing, optional SHA256 pinning). |
+| **[llamacpp-monitoring](https://github.com/flox/llamacpp-monitoring)** | Example Grafana + Prometheus monitoring stack for llama.cpp. Just works everywhere: on x86-64 and ARM Linux and macOS; locally, in CI, in prod. |  |
 
 ### Quantization and conversion tooling
 
