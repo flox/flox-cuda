@@ -52,7 +52,7 @@ Generic PyTorch wheels pull in support for more than half a dozen CUDA architect
 - **Reduces the attack surface.** Fewer unused backends and code paths mean less is exposed at runtime.
 - **Pins one artifact everywhere.** Publish targeted builds for dev, CI, and production instead of relying on whichever upstream packages happen to exist. Prototype and train on GPUs, optimize for GPU or CPU inferencing in eval, run minimal CPU- or GPU-optimized builds in production.
 
-A final reason is that building with Nix is both rewarding and surprisingly straightforward. AI coding tools and agents are exceptionally fluent in Nix's functional language. These tools can reliably generate Nix expressions or flakes that reproduce exactly the same behavior and outcome one month, one year, or five years on.
+A final reason is that building with Nix is both rewarding and surprisingly straightforward. AI coding tools and agents are exceptionally fluent in [Nix's functional language](https://nix.dev/tutorials/nix-language.html). These tools can reliably generate Nix expressions or [flakes](https://nix.dev/concepts/flakes.html) that reproduce exactly the same behavior and outcome one month, one year, or five years on.
 
 ---
 
