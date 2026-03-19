@@ -36,6 +36,7 @@ Each runtime is a declarative, reproducible Flox environment that runs directly 
 | **[vllm-monitoring](https://github.com/flox/vllm-monitoring-runtime)** | Example Grafana + Prometheus monitoring stack for vLLM. Just works everywhere: on x86-64 and ARM Linux and macOS; locally, in CI, in prod. |  |
 | **[llamacpp-runtime](https://github.com/flox/llamacpp-flox-runtime)** | llama.cpp on CUDA 12.9. Serves GGUF-quantized models via llama-server with continuous batching, Flash Attention, multi-GPU layer splitting, and GGUF artifact validation (magic bytes, header parsing, optional SHA256 pinning). |
 | **[llamacpp-monitoring](https://github.com/flox/llamacpp-monitoring)** | Example Grafana + Prometheus monitoring stack for llama.cpp. Just works everywhere: on x86-64 and ARM Linux and macOS; locally, in CI, in prod. |  |
+| **[openwebui-frontend](https://github.com/flox/openwebui-frontend)** | Open WebUI v0.8.5 chat interface for any OpenAI-compatible backend. Backend-agnostic: works with vLLM, SGLang, Triton, llama.cpp, and Ollama out of the box. Configure via `BACKEND_HOST`, `BACKEND_PORT`, and `OPENAI_API_KEY` environment variables. |
 
 ### Quantization and conversion tooling
 
