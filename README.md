@@ -42,10 +42,11 @@ Each runtime is a declarative, reproducible Flox environment that runs directly 
 | **[Comfyui](https://github.com/flox/comfyui)** | ComfyUI v0.15.0 node-based image generation with 22 bundled custom nodes (Impact Pack, ControlNet aux, AnimateDiff Evolved, IPAdapter, LTXVideo, and more), CUDA acceleration with CPU/MPS fallback, REST and WebSocket API on port 8188 for image serving, and model download scripts for SD 1.5, SDXL, SD 3.5, and FLUX.1-dev. Runs on x86-64 and ARM Linux and macOS. Test on-demand by running `flox activate -r flox/comfyui-complete` |
 | **[openwebui-frontend](https://github.com/flox/openwebui-frontend)** | Open WebUI v0.8.5 chat interface for any OpenAI-compatible backend. Backend-agnostic: works with vLLM, SGLang, Triton, llama.cpp, and Ollama out of the box. Configure via `BACKEND_HOST`, `BACKEND_PORT`, and `OPENAI_API_KEY` environment variables. Runs on x86-64 / aarch64 Linux and macOS. |
 
-### Quantization and conversion tooling
+### Model packaging, model quantization and model conversion tooling
 
 | Repository | What it does |
 |---|---|
+| **[package-hf-models](https://github.com/flox/package-hf-models)** | Packages HuggingFace model weights into immutable, content-addressed Nix store paths for serving with vLLM, Triton Inference Server, and SGLang. Supports both Triton-only layouts and dual-layout packages that expose the same weight set simultaneously as a HuggingFace cache snapshot and a Triton model repository, allowing multiple runtimes to serve one shared copy of the weights without startup downloads, cache divergence, or duplicate storage. |
 | **[model-quantizer](https://github.com/flox/model-quantizer)** | Quantize HuggingFace models for offline inference. AWQ 4-bit, FP8 via torchao, LLM Compressor (FP8), and GGUF for llama.cpp. Local and production command variants with strict validation, locking, and structured error reporting. x86-64 Linux. |
 | **[triton-trtllm-tools](https://github.com/flox/triton-trtllm-tools)** | Convert HuggingFace models into TensorRT-LLM checkpoints, then compile checkpoints into TensorRT engines for Triton serving. Includes benchmarking, evaluation, pruning, refitting, and local validation tools. x86-64 Linux. |
 
