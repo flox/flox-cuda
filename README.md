@@ -6,9 +6,9 @@ Flox supplements Nix with private catalogs; [FloxHub](https://hub.flox.dev) (a c
 
 This repo hosts GPU- and CPU-targeted build recipes, production model-serving runtimes, model quantization tooling, monitoring environments, and other resources for the NVIDIA CUDA ecosystem.
 
-This repo would not exist without the sustained excellence of the Nix ecosystem and the trailblazing ingenuity and apodeictic brilliance of the Nix CUDA team.
+This repo would not exist without the sustained excellence of the Nix ecosystem and the ingenuity / brilliance of the Nix CUDA team.
 
-Thanks to both.
+Thanks be to both.
 
 ---
 
