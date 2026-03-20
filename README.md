@@ -25,6 +25,7 @@ Thanks be to both.
 | **[vllm](https://github.com/flox/vllm)** | vLLM 0.13.0 through 0.15.1, with 0.16.0 coming soon. Versions segmented across Git branches. |
 | **[llamacpp](https://github.com/flox/llamacpp)** | GPU-specific llama.cpp recipes pinned to specific versions, plus recipes that always build latest. |
 
+
 ### Model-serving runtimes
 
 Each runtime is a declarative, reproducible Flox environment that runs directly on bare metal, in VMs, [uncontained on Kubernetes](https://flox.dev/blog/kubernetes-uncontained-explained-unlocking-faster-more-reproducible-deployments-on-k8s/), or can be used as the basis for emitting distroless OCI images. Containers aren't required, but for container-based workflows, Flox and Nix make OCI images even better: minimal, truly declarative, and deterministic.
