@@ -6,7 +6,9 @@ Flox supplements Nix with private catalogs; [FloxHub](https://hub.flox.dev) (a c
 
 This repo hosts GPU- and CPU-targeted build recipes, production model-serving runtimes, model quantization tooling, monitoring environments, and other resources for the NVIDIA CUDA ecosystem.
 
-This repo would not exist without the dedicated excellence of the Nix ecosystem and the trailblazing ingenuity and brilliance of the Nix CUDA team. Thanks to both.
+This repo would not exist without the sustained excellence of the Nix ecosystem and the trailblazing ingenuity and apodeictic brilliance of the Nix CUDA team.
+
+Thanks to both.
 
 ---
 
@@ -25,7 +27,7 @@ This repo would not exist without the dedicated excellence of the Nix ecosystem 
 
 ### Model-serving runtimes
 
-Each runtime is a declarative, reproducible Flox environment that runs directly on bare metal, in VMs, [uncontained on Kubernetes](https://flox.dev/blog/kubernetes-uncontained-explained-unlocking-faster-more-reproducible-deployments-on-k8s/), or as the basis for distroless OCI images. Containers aren't required, but (for container-based workflows) Flox and Nix make containers even better: minimal, truly declarative, deterministic.
+Each runtime is a declarative, reproducible Flox environment that runs directly on bare metal, in VMs, [uncontained on Kubernetes](https://flox.dev/blog/kubernetes-uncontained-explained-unlocking-faster-more-reproducible-deployments-on-k8s/), or can be used as the basis for emitting distroless OCI images. Containers aren't required, but for container-based workflows, Flox and Nix make OCI images even better: minimal, truly declarative, and deterministic.
 
 | Repository | What it serves |
 |---|---|
